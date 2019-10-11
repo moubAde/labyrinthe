@@ -1,0 +1,11 @@
+<resources>
+    <string name="toast_text">Here are the information about this shot:\n\nThis photo has been taken in the Death Valley National Park (USA) during Summer 2009.</string>
+    <string name="app_name">Labyrinthe</string>
+    <string name="back"><![CDATA[<]]></string>
+    <string name="rewind"><![CDATA[<<]]></string>
+    <string name="forward"><![CDATA[>>]]></string>
+    <string name="pause">||</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

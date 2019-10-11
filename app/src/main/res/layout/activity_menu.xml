@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/lab1"
+    tools:context="com.example.merle.labyrinthe.Menu">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LABYRINTHE"
+        android:id="@+id/textView"
+        android:textSize="100dip"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dip"
+        android:layout_marginTop="100dip"
+        />
+
+    <Button
+        android:text="START"
+        android:layout_width="150dip"
+        android:layout_height="60dip"
+        android:id="@+id/button"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dip"
+        android:layout_marginBottom="20dip"
+        android:background="@drawable/mybuttons"
+        android:onClick="start"/>
+
+    <Button
+        android:text="INSTRUCTIONS"
+        android:layout_width="150dip"
+        android:layout_height="60dip"
+        android:id="@+id/button1"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dip"
+        android:background="@drawable/mybuttons"
+        android:onClick="aide"/>
+
+    <Button
+        android:text="NIVEAU"
+        android:layout_width="150dip"
+        android:layout_height="60dip"
+        android:id="@+id/button2"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dip"
+        android:background="@drawable/mybuttons"
+        android:onClick="niveaux"/>
+
+    <Button
+        android:text="SONS"
+        android:layout_width="150dip"
+        android:layout_height="60dip"
+        android:id="@+id/button3"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dip"
+        android:background="@drawable/button_son"/>
+
+    <Button
+        android:text="QUITTER"
+        android:layout_width="150dip"
+        android:layout_height="60dip"
+        android:id="@+id/button4"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dip"
+        android:background="@drawable/mybuttons"
+        />
+</LinearLayout>
